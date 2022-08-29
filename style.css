@@ -17,6 +17,7 @@ ul {
 
 .top {
     display: flex;
+    flex-direction: column;
     padding: 15px;
     width: 100%;
     background-color: #1F2937;
@@ -38,4 +39,38 @@ ul {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 65px;
+}
+
+.awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.lame {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8; 
+}
+
+.button {
+    display: flex;
+    flex-grow: 0;
 }
